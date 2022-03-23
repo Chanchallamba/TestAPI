@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 
 public class TC6_GetEmployeeData
 {
-	//@Test
+	@Test
 	public void Testcase6 () throws IOException
 	{
 		Properties p = PropertyFile.LoadPropertyFile("../API_FrameworkPart2/URI.properties");

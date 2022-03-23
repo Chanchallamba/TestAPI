@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 public class TC3_GetAll
 {
 	
-	//@Test
+	@Test
 	public void Testcase3() throws IOException
 	{
 	Properties p = PropertyFile.LoadPropertyFile("../API_FrameworkPart2/URI.properties");

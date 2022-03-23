@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class TC5_DeleteRequest 
 
 {
-	//@Test
+	@Test
 	public void Testcase5 () throws IOException 
 	{
 		Properties p = PropertyFile.LoadPropertyFile("../API_FrameworkPart2/URI.properties");

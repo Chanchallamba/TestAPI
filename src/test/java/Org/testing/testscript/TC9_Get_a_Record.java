@@ -6,13 +6,12 @@ import java.util.Properties;
 import org.testng.annotations.Test;
 
 import Org.testing.TestSteps.HttpMethod;
-import Org.testing.Utilites.JsonParsingByOrgJson;
 import Org.testing.Utilites.PropertyFile;
 import io.restassured.response.Response;
 
 public class TC9_Get_a_Record
 {
-	//@Test
+	@Test
 	public void Testcase9() throws IOException
 	{
 		Properties p = PropertyFile.LoadPropertyFile("../API_FrameworkPart2/URI.properties");

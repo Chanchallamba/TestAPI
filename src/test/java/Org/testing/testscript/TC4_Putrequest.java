@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 
 public class TC4_Putrequest 
 {
-//	@Test
+	@Test
 	public void Testcase4() throws IOException
 	{		
 		Properties p = PropertyFile.LoadPropertyFile("../API_FrameworkPart2/URI.properties");

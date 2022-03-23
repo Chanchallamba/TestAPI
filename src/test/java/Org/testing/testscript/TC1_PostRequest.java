@@ -16,7 +16,7 @@ import io.restassured.response.Response;
 public class TC1_PostRequest 
 {
 	static String residValue; 
-	//@Test
+	@Test
 	public void Testcase1() throws IOException 
 	{
 		
